@@ -109,5 +109,5 @@ Plugin 'user/L9',  {'name': 'newL9'}
 
 call vundle#end()
 filetype plugin indent on
-"vim在注释下面会自动添加注释标签
+"vim nerdcommenter plugin 在注释下面添加下一行会自动在行首添加注释标签下面这行代码可以关闭这个功能
 ""autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
